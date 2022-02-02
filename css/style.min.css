@@ -2780,7 +2780,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   color: #737373;
 }
 .footer-toush__btn {
-  background: #ff7b47;
+  background-color: #ff7b47;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -2788,7 +2788,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   flex-direction: column;
   width: 163px;
   height: 58px;
+  transition: all 0.3s ease 0s;
   cursor: pointer;
+}
+.footer-toush__btn:hover {
+  background-color: #f14f0e;
+  transition: all 0.3s ease 0s;
 }
 @media (max-width: 767.98px) {
   .footer-toush__btn {
